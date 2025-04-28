@@ -1,0 +1,15 @@
+{
+    "name": "@endor-integration/game-logic",
+    "version": "1.0.0",
+    "description": "Game Logic for the Tic Tac Toe game",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "yarn node index.js",
+        "test": "yarn jest"
+    },
+    "dependencies": {
+        "lodash": "4.17.4"
+    },
+    "license": "MIT"
+}

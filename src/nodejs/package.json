@@ -1,0 +1,23 @@
+{
+    "name": "nodejs-testcase",
+    "version": "1.0.0",
+    "description": "A bare-bones Tic Tac Toe game with intentionally vulnerable dependencies for SCA testing",
+    "main": "index.js",
+    "private": true,
+    "workspaces": {
+        "packages": ["game-logic"],
+        "nohoist": ["**"]
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "moment": "2.19.1",
+      "@endor-integration/game-logic": "1.0.0"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6"
+    },
+    "license": "MIT"
+  } 
